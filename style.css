@@ -19,8 +19,10 @@ body {
 }
 h1, h2 {
     font-family: var(--titulos);
-    color: var(--colorTitulos);
-    
+    color: var(--colorTitulos); 
+}
+h1{
+  text-shadow: 1px 1px 5px #ff470445;
 }
 h3{
     color: var(--colorH3);
