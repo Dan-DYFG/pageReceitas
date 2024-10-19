@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagina de Receitas</title>
+
+    <style>
+        :root{
+
+            --backColor: #FEF6FB;
+            --colorFont: #8C6A7A;
+        }
+      body {
+        background-color: #f3e5d8;
+      }
+      main {
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 20px;
+        width: 90vw;
+        margin: auto;
+        padding: 30px;
+      }
+      .imagem {
+        border: 1px solid black;
+        border-radius: 20px;
+        height: 300px;
+        width: 100%;
+      }
+      p {
+        text-indent: 30px;
+        text-align: justify;
+      }
+      .tempo-preparacao {
+        border: 1px solid purple;
+        border-radius: 10px;
+        background-color: var(--backColor);
+        padding: 0px 30px;
+      }
+      .tempo-preparacao > h3{
+        color: var(--colorFont);
+      }
+      .ingredientes > ul {
+        columns: 2;
+        text-indent: 15px;
+      }
+      .nutricao > ul{
+        columns: 2;
+        list-style-type: none;
+        
+      }
+      table{
+        border-collapse: collapse;
+          
+      }
+      td{
+        border-bottom: 1px solid black;
+        padding: 10px;
+        width: 150px;
+      }
+      
+      
+    </style>
+  </head>
+  <body>
+    
+    <main>
+      <header>
+          <picture>
+            <img class="imagem" src="" alt="" />
+          </picture>
+          <h1>Torta de Frango Receita Simples</h1>
+          <p>
+            A torta de frango de liquidificador é a representação perfeita de uma
+            receita prática, deliciosa e que conquista pelo sabor. Com a facilidade
+            proporcionada pelo liquidificador, esta torta se torna uma opção rápida
+            e irresistível para qualquer refeição.
+          </p>
+      </header>
+
+      <section class="conteudos">
+        <article class="tempo-preparacao">
+          <h3>Tempo de Preparação</h3>
+          <ul>
+            <li><strong> Total: </strong>53 minutos</li>
+            <li><strong> Preparação: </strong>Aproximadamente 15 minutos</li>
+            <li><strong> Cozinhando: </strong>38 minutos</li>
+          </ul>
+        </article>
+
+        <article class="ingredientes">
+          <h2>Ingredientes</h2>
+
+          <h3>Massas</h3>
+          <ul>
+            <li>500 ml de leite</li>
+            <li>3 xícaras de farinha de trigo</li>
+            <li>4 ovos</li>
+            <li>25 g de queijo parmesão ralado</li>
+            <li>250 ml de óleo de soja</li>
+            <li>1 colher (café) de sal</li>
+            <li>2 colheres (café) de fermento</li>
+            <li>1 pitada de orégano</li>
+          </ul>
+
+          <h3>Recheio</h3>
+          <ul>
+            <li>
+              1 peito de frango grande cozido por 30 minutos em panela de
+              pressão e desfiado
+            </li>
+            <li>1 lata de ervilha com milho</li>
+            <li>1 tomate picado</li>
+            <li>azeitonas</li>
+            <li>1 lata de palmito picado</li>
+            <li>100 ml de molho de tomate</li>
+            <li>1 cebola picada</li>
+            <li>orégano</li>
+          </ul>
+        </article>
+
+        <article class="instrucoes">
+            <h2>Instruções</h2>
+            <ol>
+                <li><strong>Recheio: </strong>Misture todos os ingredientes em uma bacia até obter uma consistência firme e reserve.</li>
+                <li><strong>Massa: </strong>Reserve o queijo.</li>
+                <li>Bata os demais ingredientes da massa no liquidificador e acrescente por último o fermento.</li>
+                <li>Despeje metade da massa em uma assadeira grande de inox ou alumínio, untada com manteiga.</li>
+                <li>Acrescente o recheio por cima e cubra com o restante da massa.</li>
+                <li>Polvilhe queijo parmesão e coloque para assar em forno alto (220° C), preaquecido, por 40 minutos.</li>
+            </ol>
+        </article>
+
+        <article class="nutricao">
+            <h2>Nutrição</h2>
+            
+            <table>
+                <tr>
+                    <td>Calorias</td>
+                    <td></td>
+                    <td>197.73 kcal</td>
+                </tr>
+                <tr>
+                    <td>Carboidratos</td>
+                    <td></td>
+                    <td>15.49 g</td>
+                </tr>
+                <tr>
+                    <td>Proteínas</td>
+                    <td></td>
+                    <td>13.94 g</td>
+                </tr>
+                <tr>
+                    <td>Gorduras Totais</td>
+                    <td></td>
+                    <td>8.61 g</td>
+                </tr>
+            </table>
+        </article>
+      </section>
+
+    </main>
+    <footer>
+      <p>Site feito por Daniel Batista. acesso: Github</p>
+    </footer>
+</body>
+</html>
